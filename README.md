@@ -6,7 +6,7 @@ Markdown is very handy when it comes to situations where content is more importa
 
 ```
 
-@@@META
+@@@MDScript
 import lib.github.plugins.named-anchors
 load "section-one.md" as "{SECTION-ONE}" with named-anchors
 load "section-two.md" as "{SECTION-TWO}" with named-anchors
