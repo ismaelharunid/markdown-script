@@ -23,7 +23,13 @@ The above markdown would be rendered embedding external markdown files and auto 
 
 By leaving it to the editor what sort of enhancements they need and how they wish to define or include atop regular markdown.  This somewhat eliminates or at least reduces the inevitable chaos and corruption that ensues from people customizing markdown through their personal or common needs.   In this way we can keep a more basic and recognizable markdown syntax and any enhancements would be presented within the document so that editors ca more easily cater to their needs and not be bothered by enhancements that do not serve them or create additional problems.
 
-In addition to embedding and rule declarations, inner blocks might also enable sections to be individually formatted or with their own rendering rules.  Thus allowing more control over the rendered content and introducing the potential for markdown to be used as a complete replacement for html and xml.  Why a replacement?  Well let's face it, HTML and XML are often overkill for many people requirements and a simpler set of styling and layout control could make presentation some more available to the common or non-HTML/non-CSS editor.  The concept of blocks as a requirment in markdown is certainly debatable, i am sure many will say if you need that much control of presentation then use HTML and CSS.  I don't disagree, but in the end it comes down to the ease or difficulty and the time it takes to implement and to manage the content.
+In addition to embedding and rule declarations, inner blocks might also enable sections to be individually formatted or with their own rendering rules.  Thus allowing more control over the rendered content and introducing the potential for markdown to be used as a complete replacement for html and xml.  Why a replacement?  Well let's face it, HTML and XML are often overkill for many people requirements and a simpler set of styling and layout control could make presentation some more available to the common or non-HTML/non-CSS editor.  The concept of blocks as a requirement in markdown is certainly debatable, i am sure many will say if you need that much control of presentation then use HTML and CSS.  I don't disagree, but in the end it comes down to the ease or difficulty and the time it takes to implement and to manage the content.
+
+```
+@@@Block Begin block-tag
+markdown content
+@@@Block End block-tag
+```
 
 Certainly much thought must be put into this project and a proper understanding of markdown and the popular flavors and variations to make this project worthwhile.
 
